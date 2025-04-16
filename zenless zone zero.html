@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>絕區零</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    .header img {
+      height: 60px;
+      margin-right: 20px;
+    }
+    .header h1 {
+      font-size: 2.5rem;
+      color: #333;
+    }
+    .flex_container{
+      border: solid 5px rgb(234, 210, 77);
+      margin: 2%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+      justify-items: center;
+    }
+    .card{
+      width: 376px;
+      height: 512px;
+      margin: 40px;
+      transition: transform 0.3s ease;
+      position: relative;
+    }
+    .card:hover{
+      transform: scale(1.05);
+    }
+    .card > .npc{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 0;
+    }
+    .card > .bg{
+      position: absolute;
+      width: 376px;
+      height: 512px;
+      z-index: -100;
+    }
+    .card > .name{
+      position: absolute;
+      z-index: 200;
+      font-size: 2rem;
+      color: #ffffff;
+      text-align: center;
+      top:430px;
+      left: 50%;
+      transform: translateX(-50%);
+      white-space: nowrap;
+    }
+    .icon{
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      width: 128px;
+      height: 128px;
+      z-index: 5;
+    }
+  </style>
+</head>
+<body>
+<div class="header">
+  <img src="https://s1.aigei.com/src/img/png/60/6095a4dba68f49a4a3d458c0c4cee089.png?imageMogr2/auto-orient/thumbnail/!132x140r/gravity/Center/crop/132x140/quality/85/%7CimageView2/2/w/132&e=2051020800&token=P7S2Xpzfz11vAkASLTkfHN7Fw-oOZBecqeJaxypL:6QuPNE-Y7kQ_K_eF-d_-odf_U1M=" alt="logo">
+  <h1>絕區零</h1>
+</div>
+<div class="flex_container">
+  <a href="https://baike.mihoyo.com/zzz/wiki/content/1230/detail?mhy_presentation_style=fullscreen" target="_blank">
+  <div class="card">
+    <div class="name">板機</div>
+    <img class="npc" src="https://patchwiki.biligame.com/images/zzz/9/9d/qusspo4na93zik9ingdnz6cesc269gx.png">
+    <img class="bg" src="https://patchwiki.biligame.com/images/sr/a/a7/2ouh10uu2cfj052jdgz0nsm20q42l56.png">
+    <img class="icon" src="https://patchwiki.biligame.com/images/zzz/f/fc/7cun8wvym7xs1xg4bw9i3t2566gz302.png">
+  </div>
+  </a>
+
+  <a href="https://baike.mihoyo.com/zzz/wiki/content/996/detail?mhy_presentation_style=fullscreen" target="_blank">
+  <div class="card">
+    <div class="name">星見雅</div>
+    <img class="npc" src="https://patchwiki.biligame.com/images/zzz/3/37/9yio6vy3ru9m4p5n5e7hymal5pnqyqd.png">
+    <img class="bg" src="https://patchwiki.biligame.com/images/sr/a/a7/2ouh10uu2cfj052jdgz0nsm20q42l56.png">
+    <img class="icon" src="https://patchwiki.biligame.com/images/zzz/c/c3/a5mqrszzmvdorlqvcyp41nk318civl6.png">
+  </div>
+  </a>
+
+  <a href="https://baike.mihoyo.com/zzz/wiki/content/1158/detail?mhy_presentation_style=fullscreen" target="_blank">
+  <div class="card">
+    <div class="name">依芙琳</div>
+    <img class="npc" src="https://patchwiki.biligame.com/images/zzz/e/ee/5cqvufq2nhb3ohzxgnp88vx75y11j8l.png">
+    <img class="bg" src="https://patchwiki.biligame.com/images/sr/a/a7/2ouh10uu2cfj052jdgz0nsm20q42l56.png">
+    <img class="icon" src="https://patchwiki.biligame.com/images/zzz/d/d3/48t5gc6jjn8fdqsdxf8i1xh2fqiouhm.png">
+  </div>
+  </a>
+
+  <a href="https://baike.mihoyo.com/zzz/wiki/content/1109/detail?mhy_presentation_style=fullscreen" target="_blank">
+  <div class="card">
+    <div class="name">耀嘉音</div>
+    <img class="npc" src="https://patchwiki.biligame.com/images/zzz/f/f7/mw2bx2qfvjqlly82dtr5zahn290sqgo.png">
+    <img class="bg" src="https://patchwiki.biligame.com/images/sr/a/a7/2ouh10uu2cfj052jdgz0nsm20q42l56.png">
+    <img class="icon" src="https://patchwiki.biligame.com/images/zzz/d/d3/48t5gc6jjn8fdqsdxf8i1xh2fqiouhm.png">
+  </div>
+  </a>
+
+  <a href="https://baike.mihoyo.com/zzz/wiki/content/634/detail?mhy_presentation_style=fullscreen" target="_blank">
+  <div class="card">
+    <div class="name">朱鳶</div>
+    <img class="npc" src="https://patchwiki.biligame.com/images/zzz/4/42/1v49usrl1yf4snqs21zj1awie2jk5f4.png">
+    <img class="bg" src="https://patchwiki.biligame.com/images/sr/a/a7/2ouh10uu2cfj052jdgz0nsm20q42l56.png">
+    <img class="icon" src="https://patchwiki.biligame.com/images/zzz/4/48/pp2eur33vlef88dybxxqz04nx3gpb50.png">
+  </div>
+  </a>
+
+  <a href="https://baike.mihoyo.com/zzz/wiki/content/759/detail?mhy_presentation_style=fullscreen" target="_blank">
+  <div class="card">
+    <div class="name">簡</div>
+    <img class="npc" src="https://patchwiki.biligame.com/images/zzz/d/dd/74ho95p4ui76u2n7gi3wu8bu0tfwyw4.png">
+    <img class="bg" src="https://patchwiki.biligame.com/images/sr/a/a7/2ouh10uu2cfj052jdgz0nsm20q42l56.png">
+    <img class="icon" src="https://patchwiki.biligame.com/images/zzz/1/15/c0utyfbcfu5639l9c6q13ptrat98q7i.png">
+  </div>
+  </a>
+
+</div>
+</body>
+</html>
